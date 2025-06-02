@@ -1,0 +1,16 @@
+{
+  "name": "n8n-playwright",
+  "private": true,
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@currents/playwright": "^1.14.0",
+    "@n8n/api-types": "link:../packages/@n8n/api-types",
+    "@playwright/test": "^1.52.0",
+    "eslint-plugin-playwright": "^2.2.0"
+  },
+  "dependencies": {
+    "testcontainers": "^11.0.3"
+  }
+}

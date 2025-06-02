@@ -189,6 +189,7 @@ overrides:
   vue-tsc: ^2.2.8
   google-gax: ^4.3.7
   ws: '>=8.17.1'
+  playwright: ^1.52.0
 
 patchedDependencies:
   '@types/express-serve-static-core@5.0.6':
@@ -794,7 +795,11 @@ importers:
         version: 0.3.2(@langchain/core@0.3.48(openai@4.78.1(encoding@0.1.13)(zod@3.24.1)))(encoding@0.1.13)
       '@langchain/community':
         specifier: 'catalog:'
+<<<<<<< HEAD
         version: 0.3.24(a7747bc06767d45b4fc71d69250d6ec9)
+=======
+        version: 0.3.24(b96af934b0a2e332cfe5560079ee387a)
+>>>>>>> e83f270925 (fix: building needed)
       '@langchain/core':
         specifier: 'catalog:'
         version: 0.3.48(openai@4.78.1(encoding@0.1.13)(zod@3.24.1))
@@ -4636,7 +4641,7 @@ packages:
       pg: ^8.11.0
       pg-copy-streams: ^6.0.5
       pickleparser: ^0.2.1
-      playwright: ^1.32.1
+      playwright: ^1.52.0
       portkey-ai: ^0.1.11
       puppeteer: '*'
       pyodide: '>=0.24.1 <0.27.0'
@@ -8823,6 +8828,10 @@ packages:
     resolution: {integrity: sha512-j0PupcmELoVbYS2NNrsn5zcLLEsryQwP02x8fRawh7c2eEaPHwJFAxltZsqV7HJjsF57+SMpYyVRWgbVLfOagg==}
     engines: {node: '>= 0.4'}
 
+  es-define-property@1.0.0:
+    resolution: {integrity: sha512-jxayLKShrEqqzJ0eumQbVhTYQM27CfT1T35+gCgDFoL82JLsXqTJ76zv6A0YLOgEnLUMvLzsDsGIrl8NFpT2gQ==}
+    engines: {node: '>= 0.4'}
+
   es-define-property@1.0.1:
     resolution: {integrity: sha512-e3nRfgfUZ4rNGL232gUgX06QNyyez04KdjFrF+LTRoOXmrOgFKDg4BCdsjW8EnT69eqdYGmRpJwiPVYNrCaW3g==}
     engines: {node: '>= 0.4'}
@@ -8836,6 +8845,10 @@ packages:
 
   es-module-lexer@1.7.0:
     resolution: {integrity: sha512-jEQoCwk8hyb2AZziIOLhDqpm5+2ww5uIE6lkO/6jcOCusfk6LhMHpXXfBLXTZ7Ydyt0j4VoUQv6uGNYbdW+kBA==}
+
+  es-object-atoms@1.0.0:
+    resolution: {integrity: sha512-MZ4iQ6JwHOBQjahnjwaC1ZtIBH+2ohjamzAO3oaHcXYup7qxjF2fixyH+Q71voWHeOkI2q/TnJao/KfXYIZWbw==}
+    engines: {node: '>= 0.4'}
 
   es-object-atoms@1.1.1:
     resolution: {integrity: sha512-FGgH2h8zKNim9ljj7dankFPcICIK9Cp5bm+c2gQSYePhpaG5+esrLODihIorn+Pe6FGJzWhXQotPv73jTaldXA==}
@@ -9629,6 +9642,9 @@ packages:
     engines: {node: '>=12.0.0'}
     deprecated: Package is no longer maintained
     hasBin: true
+
+  gopd@1.0.1:
+    resolution: {integrity: sha512-d65bNlIadxvpb/A2abVdlqKqV563juRnZ1Wtk6s1sIR8uNsXR70xqIzVqxVf1eTqDunwT2MkczEeaezCKTZhwA==}
 
   gopd@1.2.0:
     resolution: {integrity: sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==}
@@ -12037,13 +12053,13 @@ packages:
   pkg-types@2.1.0:
     resolution: {integrity: sha512-wmJwA+8ihJixSoHKxZJRBQG1oY8Yr9pGLzRmSsNms0iNWyHHAlZCa7mmKiFR10YPZuz/2k169JiS/inOjBCZ2A==}
 
-  playwright-core@1.49.1:
-    resolution: {integrity: sha512-BzmpVcs4kE2CH15rWfzpjzVGhWERJfmnXmniSyKeRZUs9Ws65m+RGIi7mjJK/euCegfn3i7jvqWeWyHe9y3Vgg==}
+  playwright-core@1.52.0:
+    resolution: {integrity: sha512-l2osTgLXSMeuLZOML9qYODUQoPPnUsKsb5/P6LJ2e6uPKXUdPK5WYhN4z03G+YNbWmGDY4YENauNu4ZKczreHg==}
     engines: {node: '>=18'}
     hasBin: true
 
-  playwright@1.49.1:
-    resolution: {integrity: sha512-VYL8zLoNTBxVOrJBbDuRgDWa3i+mfQgDTrL8Ah9QXZ7ax4Dsj0MSq5bYgytRnDVVe+njoKnfsYkH3HzqVj5UZA==}
+  playwright@1.52.0:
+    resolution: {integrity: sha512-JAwMNMBlxJ2oD1kce4KPtMkDeKGHQstdpFPcPH3maElAXon/QZeTvtsfXmTMRyO9TslfoYOXkSsvao2nE1ilTw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -17347,7 +17363,11 @@ snapshots:
       - aws-crt
       - encoding
 
+<<<<<<< HEAD
   '@langchain/community@0.3.24(a7747bc06767d45b4fc71d69250d6ec9)':
+=======
+  '@langchain/community@0.3.24(b96af934b0a2e332cfe5560079ee387a)':
+>>>>>>> e83f270925 (fix: building needed)
     dependencies:
       '@browserbasehq/stagehand': 1.9.0(@playwright/test@1.49.1)(deepmerge@4.3.1)(dotenv@16.5.0)(encoding@0.1.13)(openai@4.78.1(encoding@0.1.13)(zod@3.24.1))(zod@3.24.1)
       '@ibm-cloud/watsonx-ai': 1.1.2
@@ -17406,7 +17426,7 @@ snapshots:
       mysql2: 3.11.0
       pdf-parse: 1.1.1
       pg: 8.12.0
-      playwright: 1.49.1
+      playwright: 1.52.0
       redis: 4.6.12
       ws: 8.18.2
     transitivePeerDependencies:
@@ -18293,7 +18313,7 @@ snapshots:
 
   '@playwright/test@1.49.1':
     dependencies:
-      playwright: 1.49.1
+      playwright: 1.52.0
 
   '@prisma/instrumentation@5.22.0':
     dependencies:
@@ -22341,16 +22361,16 @@ snapshots:
       data-view-buffer: 1.0.1
       data-view-byte-length: 1.0.1
       data-view-byte-offset: 1.0.0
-      es-define-property: 1.0.1
+      es-define-property: 1.0.0
       es-errors: 1.3.0
-      es-object-atoms: 1.1.1
+      es-object-atoms: 1.0.0
       es-set-tostringtag: 2.1.0
       es-to-primitive: 1.2.1
       function.prototype.name: 1.1.6
-      get-intrinsic: 1.3.0
+      get-intrinsic: 1.2.4
       get-symbol-description: 1.0.2
       globalthis: 1.0.4
-      gopd: 1.2.0
+      gopd: 1.0.1
       has-property-descriptors: 1.0.2
       has-proto: 1.0.3
       has-symbols: 1.1.0
@@ -22392,6 +22412,10 @@ snapshots:
       has-property-descriptors: 1.0.2
       set-function-name: 2.0.2
 
+  es-define-property@1.0.0:
+    dependencies:
+      get-intrinsic: 1.3.0
+
   es-define-property@1.0.1: {}
 
   es-errors@1.3.0: {}
@@ -22409,6 +22433,10 @@ snapshots:
       stop-iteration-iterator: 1.0.0
 
   es-module-lexer@1.7.0: {}
+
+  es-object-atoms@1.0.0:
+    dependencies:
+      es-errors: 1.3.0
 
   es-object-atoms@1.1.1:
     dependencies:
@@ -23455,6 +23483,10 @@ snapshots:
   google-p12-pem@4.0.1:
     dependencies:
       node-forge: 1.3.1
+
+  gopd@1.0.1:
+    dependencies:
+      get-intrinsic: 1.3.0
 
   gopd@1.2.0: {}
 
@@ -26418,11 +26450,11 @@ snapshots:
       exsolve: 1.0.4
       pathe: 2.0.3
 
-  playwright-core@1.49.1: {}
+  playwright-core@1.52.0: {}
 
-  playwright@1.49.1:
+  playwright@1.52.0:
     dependencies:
-      playwright-core: 1.49.1
+      playwright-core: 1.52.0
     optionalDependencies:
       fsevents: 2.3.2
 
