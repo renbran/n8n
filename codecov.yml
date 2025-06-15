@@ -61,8 +61,6 @@ component_management:
           target: auto
           threshold: 0% # Enforce: Coverage must not decrease
 
-
-
 ignore:
   - (?s:.*/[^\/]*\.spec\.ts.*)\Z
   - (?s:.*/[^\/]*\.test\.ts.*)\Z
